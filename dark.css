@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(36, 35, 35);
+    color:rgb(255, 255, 255);
+}
+
+.large-text{
+    font-size:200%;
+}
+
+.medium-text{
+    font-size:100%;
+}
+
+.small-text{
+    font-size:50%;
+}
+
+
+footer{
+    background-color: rgb(255, 255, 255);
+    color:#221f1ff0;
+}
+
+.fab{
+    color:#221f1ff0;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    color:#221f1ff0;
+}
+
+.nav-link{
+    color:#221f1ff0;
+}
+
+.nav-link:hover{
+    color:rgb(226, 43, 43)
+}

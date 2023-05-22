@@ -1,0 +1,108 @@
+body{
+    background-color: #f0f0f0;
+    color:rgb(210, 209, 209);
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.form-container{
+    padding: 0 350px;
+}
+
+form{
+    text-align:left;
+}
+
+.navbar-brand{
+    color:rgb(97, 0, 0);
+}
+.nav-link{
+    color:rgb(9, 88, 15);
+}
+
+a{
+    text-decoration: none;
+    color:#e6e4e4;
+    font-family: Helvetica, sans-serif;
+    margin: 0 30px;
+    font-size:24px;
+}
+
+a:hover{
+    color:rgb(187, 22, 16);
+}
+
+h1{
+    font-size:72px;
+    font-family: 'Century Gothic', cursive;
+}
+
+.headerImage{
+    display: none;
+}
+
+.mainHeader:hover .headerImage{
+    display:inline;
+}
+
+h2{
+    font-family: 'Century Gothic', cursive;
+    margin:0;
+    padding:0 0 25px;
+}
+
+
+#mainImage{
+    background-color: #286138;
+    padding: 50px 0 50px;
+}
+
+
+
+
+img{
+    width:50%;
+    padding: 50px 50px;
+}
+
+p{
+    font-family: 'Century Gothic', cursive;
+}
+
+.carouselHomeImage{
+    border-radius: 0;
+}
+.carousel-container{
+    text-align: center;
+}
+
+.card-img-top{
+    box-shadow: none;
+    border-radius: 0;
+}
+
+
+
+
+footer{
+    background-color:#221f1ff0;
+    padding: 15px 15px;
+    text-align:left;
+    width:100%;
+}
+
+
+#map{
+    width: 800px;
+    height: 800px;
+}
+
+
+.fab{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+map{
+    padding: 50px 50px;
+}

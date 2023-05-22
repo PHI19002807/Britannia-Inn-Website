@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Link to Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Gloria+Hallelujah&family=Indie+Flower&family=Mynerve&family=Shadows+Into+Light&display=swap"
+  rel="stylesheet">
+
+<!--Font Awesome-->
+<script src="https://kit.fontawesome.com/30056cfe46.js" crossorigin="anonymous"></script>
+
+  <!--My own CSS-->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="light.css" id="theme">
+    
+    <title>FoodDrink</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><i class="homeIcon fa-solid fa-b"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+          <a class="nav-link" href="Our_Pub.html">OUR PUB</a>
+          <a class="nav-link" href="Restaurant.html">RESTAURANT</a>
+          <a class="nav-link" href="FoodDrink.html">FOOD/DRINK</a>
+          <a class="nav-link" href="Accommodation.html">ACCOMMODATION</a>
+          <a class="nav-link" href="Local_Area.html">LOCAL AREA</a>
+          <a class="nav-link" href="Our_Location.html">OUR LOCATION</a>
+          <a class="nav-link" href="Contact_Us.html">CONTACT US</a>
+          <button onclick="changeCSS()">Dark Mode</button>
+          <button onclick="smallText()">Small Text</button>
+          <button onclick="mediumText()">Medium Text</button>
+          <button onclick="largeText()">Large Text</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+      <p>
+        <img src="Images/FoodDrink1.jpg">
+        <img src="Images/FoodDrink2.jpg">
+      </p>
+
+      <footer>
+        <div class="row">
+          <div class="col">
+            <p>Copyright © 2023 Will Phillips </p>
+          </div>
+          <div class="col">
+            <a href="https://www.facebook.com/TheBritannia/" class="fab"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+          </div>
+        </div>
+      </footer>
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+      </script>
+      <script src="darkmode.js"></script>
+      <script src="Scripts.js"></script>
+    </body>
+    
+    </html>

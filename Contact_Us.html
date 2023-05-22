@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Link to Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Gloria+Hallelujah&family=Indie+Flower&family=Mynerve&family=Shadows+Into+Light&display=swap"
+  rel="stylesheet">
+
+<!--Font Awesome-->
+<script src="https://kit.fontawesome.com/30056cfe46.js" crossorigin="anonymous"></script>
+
+  <!--My own CSS-->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="light.css" id="theme">
+
+    <title>Contact_Us</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><i class="homeIcon fa-solid fa-b"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+          <a class="nav-link" href="Our_Pub.html">OUR PUB</a>
+          <a class="nav-link" href="Restaurant.html">RESTAURANT</a>
+          <a class="nav-link" href="FoodDrink.html">FOOD/DRINK</a>
+          <a class="nav-link" href="Accommodation.html">ACCOMMODATION</a>
+          <a class="nav-link" href="Local_Area.html">LOCAL AREA</a>
+          <a class="nav-link" href="Our_Location.html">OUR LOCATION</a>
+          <a class="nav-link" href="Contact_Us.html">CONTACT US</a>
+          <button onclick="changeCSS()">Dark Mode</button>
+          <button onclick="smallText()">Small Text</button>
+          <button onclick="mediumText()">Medium Text</button>
+          <button onclick="largeText()">Large Text</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <header>
+        <h1 id="content" class="mt-5">CONTACT US</h1>
+    </header>
+
+    <main>
+        <section>
+            <div class="container form-container">
+            <h3 id="content" class="mt-5">FORM:</h3>
+                <form class="pb-5">
+                <div class="row mb-3">
+                    <label for="userName" id="content" class="form-label">Please enter name below</label>
+                    <div class="col">
+                      <input id="userName" type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                  
+                </div>
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="userGender" class="form-label">Please select gender</label>
+                        <select id="userGender" class="form-select" aria-label="Select Gender">
+                            <option selected>Select Gender...</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                          </select>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="Message" class="form-label">Please enter your message below</label>
+                        <textarea class="form-control" id="Message" rows="5"></textarea>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="userMarketing" class="form-label">Please select how you would like to be contacted</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="userMarketing" id="emailChoice">
+                            <label class="form-check-label" for="emailChoice">
+                              Email
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="userMarketing" id="textChoice" checked>
+                            <label class="form-check-label" for="textChoice">
+                              Text
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="userMarketing" id="postChoice" checked>
+                            <label class="form-check-label" for="postChoice">
+                              Post
+                            </label>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="userConfirm">
+                            <label class="form-check-label" for="userConfirm">
+                              Confirm
+                            </label>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                </div>
+
+              </form>
+            </div>
+        </section>
+
+        <section>
+            <p>See contact details below.</p>
+
+            <h2>
+              Phone NO: 01643 702384
+              Address: 1 Manor Rd, Alcombe, Minehead TA24 6EH
+            </h2>
+
+        </section>
+
+        
+    </main>
+
+    <footer>
+      <div class="row">
+        <div class="col">
+          <p>Copyright © 2023 Will Phillips </p>
+        </div>
+        <div class="col">
+          <a href="https://www.facebook.com/TheBritannia/" class="fab"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+        </div>
+      </div>
+    </footer>
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <script src="darkmode.js"></script>
+    <script src="Scripts.js"></script>
+  </body>
+  
+  </html>
